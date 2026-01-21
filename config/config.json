@@ -1,0 +1,30 @@
+{
+  "base_path": "  ",
+
+  "categories": {
+      "image": {
+        "folder": "images",
+        "extension": [".jpg", ".jpeg", ".png", ".gif", ".webp"]
+      },
+      "docs": {
+        "folder": "docs",
+        "extension": [".pdf", ".docx", ".doc", ".txt", ".md"]
+      },
+      "videos": {
+        "folder": "videos",
+        "extension": [".mp4", ".mkv"]
+      },
+      "others": {
+        "folder": "others",
+        "extension": []
+      }
+  },
+  "log_config": {
+    "enabled": true,
+    "path": "logs/basic.log",
+    "file_level": "DEBUG",
+    "console_level": "INFO",
+    "format": "| %(asctime)s | %(levelname)s | %(message)s | %(filename)s | %(lineno)s |"
+  }
+}
+

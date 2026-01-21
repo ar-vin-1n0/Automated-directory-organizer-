@@ -1,0 +1,6 @@
+# Smart File Organizer
+# --------------------
+# This project uses only Python standard library modules.
+# No external dependencies are required.
+#
+# Required Python version: 3.9+
